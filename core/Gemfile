@@ -1,3 +1,5 @@
 eval(File.read(File.dirname(__FILE__) + '/../common_spree_dependencies.rb'))
 
+gem 'paperclip', github: 'XprtCode/paperclip', branch: 'v5.2.0-mimemagic'
+
 gemspec
